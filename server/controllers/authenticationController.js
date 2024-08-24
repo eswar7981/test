@@ -13,7 +13,7 @@ exports.getData = asyncErrorHandler(async (req, res, next) => {
 
 exports.getDay = async (req, res, next) => {
   try {
-    const error = new Error("not a valid day");
+    const error = new Error("not a valid day 1");
     error.statusCode = 401;
     throw error;
   } catch (e) {
