@@ -7,7 +7,9 @@ const Button = (props) => {
 
   return (
     <div>
-    
+    {props.value}
+    <p>dsds</p>
+    <button>dsdsd</button>
     </div>
   );
 };
