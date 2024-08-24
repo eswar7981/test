@@ -3,7 +3,7 @@ const asyncErrorHandler = require("../utils/asyncGlobalHandler");
 
 exports.getData = asyncErrorHandler(async (req, res, next) => {
   try {
-    const error = new Error("i am current working as developer1");
+    const error = new Error("i am current working as developer 1");
     error.statusCode = 444;
     throw error;
   } catch (err) {
